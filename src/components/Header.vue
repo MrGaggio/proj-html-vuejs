@@ -30,7 +30,7 @@
           <a href="#">Shortcodes</a>
         </li>
         <li>
-          <img src="../assets/images/chat.png" alt="" />
+          <img class="header_icons" src="../assets/images/chat.png" alt="" />
           <a href="#">Support</a>
         </li>
         <li>
@@ -59,26 +59,35 @@ export default {
   box-sizing: border-box;
 }
 .header {
+  margin: 0 200px;
   display: flex;
-  height: 200px;
-  width: 70%;
-  margin: auto;
+  height: 150px;
+  align-items: center;
+  justify-content: center;
   background-color: #fefefe;
 }
 .logo {
   width: 200px;
 }
-.nav {
-}
+
 ul {
   list-style-type: none;
   display: flex;
-  
+  align-self: center;
+  text-align: center;
 }
 li {
+  margin: 0 3.5em;
+}
+li:hover {
+  cursor: pointer;
+}
+.header_icons {
+  width: 40px;
 }
 a {
-  text-decoration: none;
+  text-decoration: none !important;
+  color: #56509f !important;
   text-align: center;
   display: block;
 }
