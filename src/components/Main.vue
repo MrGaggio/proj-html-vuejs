@@ -8,4 +8,9 @@ export default {
 };
 </script>
 
-<style lang="scss"></style>
+<style lang="scss">
+  .main{
+    background-color: aqua;
+    height: 200px;
+  }
+</style>
