@@ -1,7 +1,15 @@
 <template>
   <main>
     <div class="jumbo_container container-fluid">
-      <!-- <img class="jumbo" src="../assets/images/slider_slide3_background.png" alt="" /> -->
+      <img class="train" src="../assets/images/slider_slide3_img2.png" alt="" />
+      <img
+        class="costruzioni"
+        src="../assets/images/slider_slide3_img3.png"
+        alt=""
+      />
+      <div class="rectangle1"></div>
+      <div class="rectangle2"></div>
+      <div class="rectangle3"></div>
     </div>
   </main>
 </template>
@@ -13,12 +21,45 @@ export default {
 </script>
 
 <style lang="scss">
-
 .jumbo_container {
   position: relative;
   height: 800px;
-  width: 100vh;
+  width: 100vw;
   background-image: url(../assets/images/slider_slide3_background.png);
   background-size: contain;
+}
+.train {
+  position: absolute;
+  top: 39vh;
+  left: 40vw;
+}
+.costruzioni {
+  position: absolute;
+  top: 44vh;
+  left: 73vw;
+}
+.rectangle1 {
+  position: absolute;
+  top: 53vh;
+  left: 47vw;
+  width: 30px;
+  height: 10px;
+  border: 2px solid #FD6500;
+}
+.rectangle2 {
+  position: absolute;
+  top: 53vh;
+  left: 49vw;
+  width: 30px;
+  height: 10px;
+  border: 2px solid #FD6500;
+}
+.rectangle3 {
+  position: absolute;
+  top: 52vh;
+  left: 51vw;
+  width: 30px;
+  height: 10px;
+  border: 2px solid #FD6500;
 }
 </style>
