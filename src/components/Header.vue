@@ -1,17 +1,17 @@
 <template>
-  <div class="header container">
-    <nav class="navbar navbar-light">
-      <div class="container header_container">
-        <a class="navbar-brand" href="#">
-          <img
-            class="header_icons"
-            src="../assets/images/logo.png"
-            alt=""
-            width="200"
-            height=""
-          />
-        </a>
-        <ul class="nav justify-content-center text-center">
+  <div class="container">
+    <div class="row justify-content-between">
+      <div class="col-4 logo_wrap">
+        <img
+          class="header_icons"
+          src="../assets/images/logo.png"
+          alt=""
+          width="175"
+          height=""
+        />
+      </div>
+      <div class="col-8">
+        <ul class="nav text-center">
           <li class="nav-item">
             <img class="header_icons" src="../assets/images/home.png" alt="" />
             <a class="nav-link" href="#">Home</a>
@@ -54,7 +54,7 @@
           </li>
         </ul>
       </div>
-    </nav>
+    </div>
   </div>
 </template>
 
@@ -70,57 +70,26 @@ export default {
   padding: 0;
   box-sizing: border-box;
 }
-.navbar {
-  padding: 0 !important;
+.nav {
+  flex-wrap: nowrap !important;
 }
+
 li.nav-item {
-  padding-top: 50px;
-  margin: 0 20px;
-  height: 142px;
+  padding-top: 36px;
+  margin-right: 20px;
+ 
 }
 li.nav-item:hover {
   background-color: #fd6500;
 }
-
+li a {
+  margin-top: 8px;
+}
 img.header_icons {
   color: #56509f;
-  font-weight: 700;
+ 
 }
 a {
   color: #56509f !important;
 }
-
-// .header {
-//   margin: 0 200px;
-//   display: flex;
-//   height: 150px;
-//   align-items: center;
-//   justify-content: center;
-//   background-color: #fefefe;
-// }
-// .logo {
-//   width: 200px;
-// }
-
-// ul {
-//   list-style-type: none;
-//   display: flex;
-//   align-self: center;
-//   text-align: center;
-// }
-// li {
-//   margin: 0 3.5em;
-// }
-// li:hover {
-//   cursor: pointer;
-// }
-// .header_icons {
-//   width: 40px;
-// }
-// a {
-//   text-decoration: none !important;
-//   color: #56509f !important;
-//   text-align: center;
-//   display: block;
-// }
 </style>
