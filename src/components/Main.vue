@@ -56,35 +56,80 @@
           </div>
         </div>
       </div>
-      <div class="container container_circle">
+
+      <div class="container cards">
         <div class="row">
-          <div class="col-3">
-            <div class="circle_png">
-              <img src="" alt="" />
+          <div class="col">
+            <div class="circle_orange">
+              <img
+                src="../assets/images/schoolbag_alt.png"
+                class="card-img-top"
+                alt=""
+              />
             </div>
-            <h3></h3>
-            <p></p>
+            <div class="card" style="width: 18rem">
+              <div class="card-body">
+                <h5 class="card-title text-center mb-4 mt-2">Morbi Etos</h5>
+                <p class="card-text text-center">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+              </div>
+            </div>
           </div>
-          <div class="col-3">
-            <div class="circle_png">
-              <img src="" alt="" />
+          <div class="col">
+            <div class="circle_purple">
+              <img
+                src="../assets/images/stroller_alt.png"
+                class="card-img-top"
+                alt=""
+              />
             </div>
-            <h3></h3>
-            <p></p>
+            <div class="card" style="width: 18rem">
+              <div class="card-body">
+                <h5 class="card-title text-center mb-4 mt-2">Congue Gravida</h5>
+                <p class="card-text text-center">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+              </div>
+            </div>
           </div>
-          <div class="col-3">
-            <div class="circle_png">
-              <img src="" alt="" />
+          <div class="col">
+            <div class="circle_orange">
+              <img
+                src="../assets/images/globe_alt.png"
+                class="card-img-top"
+                alt=""
+              />
             </div>
-            <h3></h3>
-            <p></p>
+            <div class="card" style="width: 18rem">
+              <div class="card-body">
+                <h5 class="card-title text-center mb-4 mt-2">Maecenas Node</h5>
+                <p class="card-text text-center">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+              </div>
+            </div>
           </div>
-          <div class="col-3">
-            <div class="circle_png">
-              <img src="" alt="" />
+          <div class="col">
+            <div class="circle_purple">
+              <img
+                src="../assets/images/bell_alt.png"
+                class="card-img-top"
+                alt=""
+              />
             </div>
-            <h3></h3>
-            <p></p>
+            <div class="card" style="width: 18rem">
+              <div class="card-body">
+                <h5 class="card-title text-center mb-4 mt-2">Praesent Morbi</h5>
+                <p class="card-text text-center">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -164,10 +209,43 @@ main {
   height: 150px;
   background-image: url(../assets/images/pattern.png);
 }
-.circle_png {
-  height: 50px;
-  width: 50px;
+
+.welcome_to_fable{
+  height: 800px;
+}
+.welcome_to_fable h1, h5{
+  color: #56509f;
+  font-weight: 800;
+}
+.welcome_to_fable p{
+  color: #7C7C7C;
+  font-weight: 700;
+}
+.card {
+  border: none !important;
+}
+.circle_orange {
+  position: relative;
+  height: 200px;
+  width: 200px;
   background-color: #fe6500;
   border-radius: 50%;
+  margin: auto;
+}
+.circle_purple {
+  position: relative;
+  height: 200px;
+  width: 200px;
+  background-color: #56509f;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.card-img-top {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 35% !important;
 }
 </style>
