@@ -70,15 +70,16 @@ export default {
   padding: 0;
   box-sizing: border-box;
 }
-.container {
-  padding: 0;
+.navbar {
+  padding: 0 !important;
 }
 li.nav-item {
+  padding-top: 50px;
   margin: 0 20px;
-  
+  height: 142px;
 }
-li.nav-item:hover{
-  background-color: #FD6500;
+li.nav-item:hover {
+  background-color: #fd6500;
 }
 
 img.header_icons {
