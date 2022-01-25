@@ -10,6 +10,7 @@
       <div class="rectangle1"></div>
       <div class="rectangle2"></div>
       <div class="rectangle3"></div>
+      <p class="handlee">Learnin & fun</p>
     </div>
   </main>
 </template>
@@ -61,5 +62,13 @@ export default {
   width: 30px;
   height: 10px;
   border: 2px solid #FD6500;
+}
+.handlee{
+  font-family: 'Handlee', cursive;
+  font-size: 40px;
+  color: #EDE7E4;
+  position: absolute;
+  top: 20vh;
+  left: 20vw;
 }
 </style>
