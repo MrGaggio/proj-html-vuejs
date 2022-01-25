@@ -1,5 +1,5 @@
 <template>
-  <div class="header">
+  <div class="header container">
     <nav class="navbar navbar-light">
       <div class="container header_container">
         <a class="navbar-brand" href="#">
