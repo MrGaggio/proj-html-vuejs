@@ -189,9 +189,7 @@
           </div>
 
           <div class="col-6">
-            
-            <Slider />  
-          
+            <Slider />
           </div>
         </div>
       </div>
@@ -200,8 +198,12 @@
 </template>
 
 <script>
+import Slider from "./Slider.vue";
 export default {
   name: "Main",
+  components: {
+    Slider,
+  },
 };
 </script>
 
