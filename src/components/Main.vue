@@ -134,6 +134,15 @@
         </div>
       </div>
     </section>
+
+    <section class="phylosophy">
+      <div class="container">
+        <div class="row">
+          
+        </div>
+
+      </div>
+    </section>
   </main>
 </template>
 
@@ -210,15 +219,16 @@ main {
   background-image: url(../assets/images/pattern.png);
 }
 
-.welcome_to_fable{
-  height: 800px;
+.welcome_to_fable {
+  height: 600px;
 }
-.welcome_to_fable h1, h5{
+.welcome_to_fable h1,
+h5 {
   color: #56509f;
   font-weight: 800;
 }
-.welcome_to_fable p{
-  color: #7C7C7C;
+.welcome_to_fable p {
+  color: #7c7c7c;
   font-weight: 700;
 }
 .card {
@@ -247,5 +257,16 @@ main {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 35% !important;
+}
+
+/*
+******************
+PHYLOSOPHY SECTION
+******************
+*/
+
+philosophy{
+  background-color: #F5F5F5;
+  height: 800px;
 }
 </style>
