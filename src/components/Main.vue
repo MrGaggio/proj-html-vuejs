@@ -188,9 +188,7 @@
             </div>
           </div>
 
-          
-            <Slider />
-          
+          <Slider />
         </div>
       </div>
     </section>

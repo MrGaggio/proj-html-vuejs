@@ -1,8 +1,11 @@
 .
 <template>
-  <div class="col-6">
+  <div class="col-6 big">
     <div class="slider_wrap d-flex">
-      <img class="img-fluid" :src="require(`../assets/slider/${images[counter]}`)" />
+      <img
+        class="img-fluid"
+        :src="require(`../assets/slider/${images[counter]}`)"
+      />
 
       <div @click="prev" class="prev">
         <img src="../assets/images/slider_previous.png" alt="" />
@@ -11,7 +14,17 @@
         <img src="../assets/images/slider_next.png" alt="" />
       </div>
     </div>
+    <div class="thumbs col-2">
+
+    </div>
+        <div class="thumbs col-2">
+
+    </div>
+        <div class="thumbs col-2">
+
+    </div>
   </div>
+  
 </template>
 
 <script>
@@ -43,6 +56,9 @@ export default {
 </script>
 
 <style lang="scss">
+.big {
+  height: 420px;
+}
 .slider_wrap {
   position: relative;
   width: 90%;
