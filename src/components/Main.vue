@@ -138,13 +138,61 @@
     <section class="ourphylosophy">
       <div class="container philosophy pt-5 mt-5">
         <div class="row">
-          <div class="col">
-            <p style="display: inline-block" class="overview text-center">Overview</p>
-            <p style="display: inline-block" class="mission text-center">Our Mission</p>
-            <h2 style="color: #56509f " class="fs-1 pt-4 bt-4">Our philosophy is learning through play as we offer a stimulating evironment for children.</h2>
+          <div class="col-6">
+            <p style="display: inline-block" class="overview text-center">
+              Overview
+            </p>
+            <p style="display: inline-block" class="mission text-center">
+              Our Mission
+            </p>
+            <h2 class="fs-1 mb-5 mt-4">
+              Our philosophy is learning through play as we offer a stimulating
+              evironment for children.
+            </h2>
+            <div class="full_day d-flex">
+              <div class="clock_container pe-5">
+                <div class="clock">
+                  <img
+                    class="card-img-top"
+                    src="../assets/images/clock_alt.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="session">
+                <h3>Full Day Session</h3>
+                <p>
+                  pulvinar est metro ligula blandit maecenas return gravida
+                  cuprum. Maecenas node. estibulum
+                </p>
+              </div>
+            </div>
+
+            <div class="full_day d-flex mt-5">
+              <div class="clock_container pe-5">
+                <div class="clock">
+                  <img
+                    class="card-img-top"
+                    src="../assets/images/clock_alt.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="session">
+                <h3>Varied Classes</h3>
+                <p>
+                  pulvinar est metro ligula blandit maecenas return gravida
+                  cuprum. Maecenas node. estibulum
+                </p>
+              </div>
+            </div>
           </div>
+
+          <div class="col-6">
+            
+            <Slider />  
           
-          <div class="col-6"></div>
+          </div>
         </div>
       </div>
     </section>
@@ -160,6 +208,16 @@ export default {
 <style lang="scss">
 main {
   font-family: "Almarai", sans-serif;
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    color: #56509f;
+  }
+  p {
+    color: #b0b0b0;
+  }
 }
 
 .how_to p {
@@ -275,7 +333,6 @@ PHYLOSOPHY SECTION
   height: 800px;
 }
 .overview {
-  
   width: 150px;
   height: 50px;
   line-height: 50px;
@@ -289,5 +346,13 @@ PHYLOSOPHY SECTION
   line-height: 50px;
   color: #b9b9b9;
   border-bottom: 1px solid #b9b9b9;
+}
+.clock {
+  position: relative;
+  height: 100px;
+  width: 100px;
+  background-color: #fe6500;
+  border-radius: 50%;
+  margin: auto;
 }
 </style>
