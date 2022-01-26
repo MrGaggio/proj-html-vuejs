@@ -161,7 +161,7 @@
               </div>
               <div class="session">
                 <h3>Full Day Session</h3>
-                <p>
+                <p class="mt-4">
                   pulvinar est metro ligula blandit maecenas return gravida
                   cuprum. Maecenas node. estibulum
                 </p>
@@ -180,7 +180,7 @@
               </div>
               <div class="session">
                 <h3>Varied Classes</h3>
-                <p>
+                <p class="mt-4">
                   pulvinar est metro ligula blandit maecenas return gravida
                   cuprum. Maecenas node. estibulum
                 </p>
@@ -188,9 +188,9 @@
             </div>
           </div>
 
-          <div class="col-6">
+          
             <Slider />
-          </div>
+          
         </div>
       </div>
     </section>
