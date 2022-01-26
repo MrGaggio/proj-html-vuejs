@@ -135,12 +135,17 @@
       </div>
     </section>
 
-    <section class="phylosophy">
-      <div class="container">
+    <section class="ourphylosophy">
+      <div class="container philosophy pt-5 mt-5">
         <div class="row">
+          <div class="col">
+            <p style="display: inline-block" class="overview text-center">Overview</p>
+            <p style="display: inline-block" class="mission text-center">Our Mission</p>
+            <h2 style="color: #56509f " class="fs-1 pt-4 bt-4">Our philosophy is learning through play as we offer a stimulating evironment for children.</h2>
+          </div>
           
+          <div class="col-6"></div>
         </div>
-
       </div>
     </section>
   </main>
@@ -220,7 +225,7 @@ main {
 }
 
 .welcome_to_fable {
-  height: 600px;
+  height: 800px;
 }
 .welcome_to_fable h1,
 h5 {
@@ -265,8 +270,24 @@ PHYLOSOPHY SECTION
 ******************
 */
 
-philosophy{
-  background-color: #F5F5F5;
+.philosophy {
+  background-color: #f5f5f5;
   height: 800px;
+}
+.overview {
+  
+  width: 150px;
+  height: 50px;
+  line-height: 50px;
+  background-color: #fe6500;
+  color: white;
+  margin-right: 20px;
+}
+.mission {
+  width: 150px;
+  height: 50px;
+  line-height: 50px;
+  color: #b9b9b9;
+  border-bottom: 1px solid #b9b9b9;
 }
 </style>
