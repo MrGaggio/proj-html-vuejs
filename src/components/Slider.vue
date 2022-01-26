@@ -1,8 +1,8 @@
 .
 <template>
   <div class="col-6">
-    <div  class="slider_wrap d-flex">
-      <img class="img-fluid" :src="`../assets/slider/${images[counter]}.jpg`"/>
+    <div class="slider_wrap d-flex">
+      <img class="img-fluid" :src="`../assets/slider/${images[counter]}`" />
 
       <div @click="prev" class="prev">
         <img src="../assets/images/slider_previous.png" alt="" />
@@ -19,17 +19,22 @@ export default {
   name: "Slider",
   data() {
     return {
-      counter: null,
-      this.counter = image
-      images: ["1", "2", "3", "4", "5", "6"],
+      counter: 0,
+      images: ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg"],
     };
   },
   methods: {
     prev() {
       this.counter -= 1;
+      if (this.counter < 0) {
+        this.counter = this.images.length - 1;
+      }
     },
     next() {
       this.counter += 1;
+      if (this.counter > this.images.length - 1) {
+        this.counter = 0;
+      }
     },
   },
 };
