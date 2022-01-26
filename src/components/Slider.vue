@@ -2,7 +2,7 @@
 <template>
   <div class="col-6">
     <div class="slider_wrap d-flex">
-      <img class="img-fluid" :src="`../assets/slider/${images[counter]}`" />
+      <img class="img-fluid" :src="require(`../assets/slider/${images[counter]}`)" />
 
       <div @click="prev" class="prev">
         <img src="../assets/images/slider_previous.png" alt="" />
@@ -25,12 +25,14 @@ export default {
   },
   methods: {
     prev() {
+      console.log("cliccato");
       this.counter -= 1;
       if (this.counter < 0) {
         this.counter = this.images.length - 1;
       }
     },
     next() {
+      console.log("cliccato");
       this.counter += 1;
       if (this.counter > this.images.length - 1) {
         this.counter = 0;
